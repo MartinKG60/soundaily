@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>SOUNDAILY</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="row">
+            <div class="logo inlineBlock">
+                <a href="index.html" style="color:#222;text-decoration:none;">
+                    <h2>SOUNDAILY</h2>
+                </a>
+            </div>
+            <div id="nav" class="inlineBlock">
+                <ul>
+                    <li>
+                        <a href="index.html">MENU</a>
+                    </li>
+                    <li class="login hide">
+                        <a href="login.html">LOGIN</a>
+                    </li>
+                    <li class="user hide">
+                        <div class="username"></div>
+                        <button id="btnLogout">Log out</button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="row">
+            <div id="loginForm">
+                <h3>Login</h3>
+                <input type="email" id="txtEmail" placeholder="Email" />
+                <input type="password" id="txtPassword" placeholder="Password" />
+                <button id="btnLogin">Login</button>
+                <button id="btnSignUp">Sign up</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script src="https://www.gstatic.com/firebasejs/4.6.0/firebase.js"></script>
+    <script src="assets/js/app.js"></script>
+    <script src="assets/js/login.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>SOUNDAILY</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="row">
+            <div class="logo inlineBlock">
+                <a href="index.html" style="color:#222;text-decoration:none;">
+                    <h2>SOUNDAILY</h2>
+                </a>
+            </div>
+            <div id="nav" class="inlineBlock">
+                <div class="userInfo hide">
+                    <span class="username"></span><a href="#" id="btnLogout">Log out</a>
+                </div>
+                <ul>
+                    <li>
+                        <a href="index.html">MENU</a>
+                    </li>
+                    <li class="login hide">
+                        <a href="login.html">LOGIN</a>
+                    </li>
+                    <li class="user hide">
+                        <a href="user.html">USER</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="row">
+            <div id="user">
+                <div id="updateUserData">
+                    <h3>Update user data</h3>
+                    <input type="text" id="name" placeholder="Name" />
+                    <input type="text" id="age" placeholder="Age" />
+                    <button id="btnUpdateUser">Update user</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script src="https://www.gstatic.com/firebasejs/4.6.0/firebase.js"></script>
+    <script src="assets/js/app.js"></script>
+    <script src="assets/js/user.js"></script>
+</body>
+
+</html>
